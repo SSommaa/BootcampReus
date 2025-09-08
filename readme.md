@@ -37,8 +37,8 @@ Aquí encontrarás todos los proyectos que he desarrollado durante el bootcamp. 
 Si quieres conectarte conmigo o revisar mis proyectos más de cerca, puedes hacerlo a través de:
 
 - [LinkedIn](https://www.linkedin.com/in/carlos-bausa-segura-985148240/)
-- [Email](carlosbausa2@gmail.com)
-- [Portfolio personal]
+- [Email](mailto:carlosbausa2@gmail.com)
+- [Portfolio personal](si tienes)
 
 ---
 
