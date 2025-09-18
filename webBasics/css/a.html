@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventas Mensuales</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .ventas-container {
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: 3px solid black;
+      }
+
+      .header {
+        background-color: #00bfff;
+        color: black;
+        text-align: center;
+        padding: 8px 0;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .table-header {
+        background-color: #f5deb3;
+        border-bottom: 2px solid black;
+      }
+
+      .table-header th {
+        padding: 12px 20px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 16px;
+        border-right: 2px solid black;
+      }
+
+      .table-header th:last-child {
+        border-right: none;
+      }
+
+      .table-row {
+        background-color: #f5deb3;
+        border-bottom: 1px solid black;
+      }
+
+      .table-row td {
+        padding: 10px 20px;
+        border-right: 2px solid black;
+        font-size: 14px;
+      }
+
+      .table-row td:last-child {
+        border-right: none;
+      }
+
+      .footer {
+        background-color: #00bfff;
+        color: black;
+        text-align: center;
+        padding: 8px 0;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ventas-container">
+      <div class="header">Ventas mensuales</div>
+
+      <table class="table">
+        <thead class="table-header">
+          <tr>
+            <th>Trabajador</th>
+            <th>Total</th>
+            <th>Departamento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-row">
+            <td>Alfreds Futterkiste</td>
+            <td>5,135€</td>
+            <td>Construcción</td>
+          </tr>
+          <tr class="table-row">
+            <td>Francisco Chang</td>
+            <td>3124.28</td>
+            <td>Dormitorios</td>
+          </tr>
+          <tr class="table-row">
+            <td>María Anders</td>
+            <td>1234.5</td>
+            <td>Comedores</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="footer">* El IVA no está incluido en las ventas</div>
+    </div>
+  </body>
+</html>
