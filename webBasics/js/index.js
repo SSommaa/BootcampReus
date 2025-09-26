@@ -154,11 +154,11 @@ console.log(stringANumero("tres"));
 /* Ejercicio 06 */
 
 for (let i = 1; i <= 10; i++) {
-  console.log("I love Japanese baddies ♥");
+  console.log("I love coding ♥");
 }
 const auxiliar = 0;
 while (auxiliar <= 10) {
-  console.log("I love Japanese baddies ♥");
+  console.log("I love coding");
   console.log("Hi");
   auxiliar = auxiliar + 1;
 }
