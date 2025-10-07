@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Gestor de listas</h1>
+
+    <div style="background: #d3e9b6; padding: 10px">
+      <fieldset style="margin-bottom: 10px">
+        <legend>Añadir elemento</legend>
+        <button id="pushBtn">añadir al final</button>
+        <button id="unshiftBtn">añadir al inicio</button>
+        <button id="insertBtn">insertar en</button>
+        <input
+          id="insertIndex"
+          type="number"
+          min="0"
+          value="3"
+          style="width: 40px"
+        />
+      </fieldset>
+      <fieldset style="margin-bottom: 10px">
+        <legend>Eliminar elemento</legend>
+        <button id="popBtn">eliminar último</button>
+        <button id="shiftBtn">eliminar primero</button>
+        <button id="removeBtn">eliminar en</button>
+        <input
+          id="removeIndex"
+          type="number"
+          min="0"
+          value="2"
+          style="width: 40px"
+        />
+      </fieldset>
+    </div>
+    <pre id="arrayDisplay">[]</pre>
+  </body>
+</html>

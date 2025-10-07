@@ -1,0 +1,75 @@
+div {
+  background: linear-gradient(135deg, #d3e9b6 60%, #b6e3e9 100%);
+  padding: 24px 20px 16px 20px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(80, 120, 80, 0.08);
+  max-width: 420px;
+  margin: 32px auto;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+fieldset {
+  border: 1.5px solid #a3c47c;
+  border-radius: 8px;
+  padding: 14px 12px 10px 12px;
+  background: #f6faee;
+  margin-bottom: 18px;
+}
+
+legend {
+  font-weight: 600;
+  color: #5b7d3a;
+  font-size: 1.08em;
+  padding: 0 8px;
+}
+
+button {
+  background: #8fc866;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 14px;
+  margin-right: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.18s;
+  box-shadow: 0 1px 4px rgba(80, 120, 80, 0.07);
+}
+
+button:hover,
+button:focus {
+  background: #6fa84a;
+  outline: none;
+}
+
+input[type="number"] {
+  border: 1px solid #b6d7a8;
+  border-radius: 4px;
+  padding: 5px 6px;
+  width: 48px;
+  font-size: 1em;
+  margin-left: 4px;
+  background: #fff;
+  color: #4b5c3b;
+}
+h1 {
+  color: #4b5c3b;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+ul {
+  list-style: disc inside;
+  padding-left: 0;
+  margin: 16px 0 12px 0;
+  color: #4b5c3b;
+  font-size: 1.08em;
+}
+
+li {
+  margin-bottom: 7px;
+  padding-left: 2px;
+  line-height: 1.5;
+}

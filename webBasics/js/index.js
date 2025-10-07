@@ -162,3 +162,26 @@ while (auxiliar <= 10) {
   console.log("Hi");
   auxiliar = auxiliar + 1;
 }
+
+/* Ejercicio 07 */
+const letras = ["a", "b", "c", "d", "e"];
+letras.forEach((letra) => console.log(letra));
+
+let number = 5;
+while (number > 0) {
+  console.log(number);
+  number--;
+}
+
+/* Ejercicio 08 */
+/*
+El programa utiliza un bucle do...while que se ejecuta mientras 'numero' sea menor que 5.
+- Inicialmente, 'numero' es 1 e 'i' es 0.
+- En la primera iteración, como i === 0, entra en el if, incrementa i (i=1), decrementa numero (numero=0) y muestra 0.
+- En las siguientes iteraciones, como i ya no es 0, entra en el else, incrementa numero y lo muestra.
+- El ciclo termina cuando numero llega a 5.
+
+Iteraciones totales: 6.
+Entra al if solo en la primera iteración (cuando i es 0).
+Entra al else en las siguientes 5 iteraciones (cuando i es distinto de 0).
+*/
