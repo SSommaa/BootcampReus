@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tamagochi TS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="name" id="petName">Fluffy</div>
+      </header>
+
+      <main class="grid">
+        <section class="quad eat" data-action="eat">
+          <div class="quad-title">EAT</div>
+          <div class="icons">
+            <button class="icon" data-action="feedSmall" title="Snack">🍏</button>
+            <button class="icon" data-action="feedBig" title="Meal">🥦</button>
+            <button class="icon" data-action="clean" title="Clean">🧽</button>
+          </div>
+          <div class="meter">
+            <div class="meter-fill" id="statFullness"></div>
+          </div>
+          <div class="meter-label" id="labelFullness">0% Full</div>
+        </section>
+
+        <section class="quad play" data-action="play">
+          <div class="quad-title">PLAY</div>
+          <div class="icons">
+            <button class="icon" data-action="playLight" title="Toy">🧸</button>
+            <button class="icon" data-action="playHard" title="Run">🥏</button>
+            <button class="icon" data-action="train" title="Train">🎯</button>
+          </div>
+          <div class="meter">
+            <div class="meter-fill" id="statFun"></div>
+          </div>
+          <div class="meter-label" id="labelFun">0% Fun</div>
+        </section>
+
+        <section class="quad fight" data-action="fight">
+          <div class="quad-title">FIGHT</div>
+          <div class="icons">
+            <button class="icon" data-action="spar" title="Spar">🥊</button>
+            <button class="icon" data-action="run" title="Cardio">🏃</button>
+            <button class="icon" data-action="shield" title="Guard">🛡️</button>
+          </div>
+          <div class="meter">
+            <div class="meter-fill" id="statStrength"></div>
+          </div>
+          <div class="meter-label" id="labelStrength">0% Strength</div>
+        </section>
+
+        <section class="quad sleep" data-action="sleep">
+          <div class="quad-title">SLEEP</div>
+          <div class="icons">
+            <button class="icon" data-action="nap" title="Nap">🛌</button>
+            <button class="icon" data-action="sleepNight" title="Sleep">🌙</button>
+            <button class="icon" data-action="wake" title="Wake">⏰</button>
+          </div>
+          <div class="meter">
+            <div class="meter-fill" id="statEnergy"></div>
+          </div>
+          <div class="meter-label" id="labelEnergy">0% Energy</div>
+        </section>
+
+        <div class="center">
+          <div class="pet" id="pet">🐶</div>
+          <div class="heart" id="hearts">❤❤</div>
+          <div class="meter narrow">
+            <div class="meter-fill" id="statHappiness"></div>
+          </div>
+          <div class="meter-label" id="labelHappiness">Happiness 0%</div>
+        </div>
+      </main>
+    </div>
+
+    <script src="dist/app.js"></script>
+  </body>
+  </html>
+
+
